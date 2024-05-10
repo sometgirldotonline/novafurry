@@ -41,8 +41,8 @@ jobs:
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
           plugin_pagespeed: yes
-          plugin_pagespeed_pwa: yes
-          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_pwa: no
+          plugin_pagespeed_screenshot: no
           plugin_pagespeed_url: novafurry.win
           plugin_people: yes
           plugin_people_limit: 24
