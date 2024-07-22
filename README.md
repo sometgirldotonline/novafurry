@@ -4,7 +4,7 @@
 
  <h4 align="center"><img height="150" src="https://avatars.githubusercontent.com/u/47910472?v=4"><img src="header.png" height=150><img height="150" src="https://avatars.githubusercontent.com/u/47910472?v=4"></h4>
   
-<p align="center">${they\ them\ *\ furry/therian\ *\ dumbass\ *\ i\ used\ LaTeX\ for\ this}$<br>🔭 I'm currently working on fucking cock assessments<br>
+<p align="center">${they\ them\ *\ furry/therian\ *\ dumbass\ *\ i\ used\ \LaTeX{}\ for\ this}$<br>🔭 I'm currently working on fucking cock assessments<br>
 🌱 Currently learning Jquery and C<br>
 📫 Email me! nova@novafurry.win<br>
 ⚡ Fun Fact: dfl;jkhor;lgj</p>
