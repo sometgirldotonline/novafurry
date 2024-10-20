@@ -7,13 +7,14 @@
     -device isa-applesmc,osk=ourhardworkbythesewordsguardedpleasedontsteal\(c\)AppleComputerInc \
     -global nec-usb-xhci.msi=off \
     -cpu host,-pdpe1gb,+hypervisor \
-    -smp cores=2,threads=1,sockets=1 \
-    -m 8G \
+    -smp cores=2,threads=2,sockets=1 \
+    -m 10G \
     -device virtio-balloon \
     -rtc base=localtime,clock=host,driftfix=slew \
     -pidfile macos-big-sur/macos-big-sur.pid \
     -vga none \
-    -device VGA,xres=1280,yres=800,vgamem_mb=256 \
+    -device VGA,xres=1920,yres=1080,vgamem_mb=2000 \
+    -device VGA,xres=1920,yres=1080,vgamem_mb=2000 \
     -display sdl,gl=on \
     -device virtio-rng-pci,rng=rng0 \
     -object rng-random,id=rng0,filename=/dev/urandom \
@@ -31,12 +32,10 @@
     -device qemu-xhci,id=input \
     -device usb-kbd,bus=input.0 \
     -k en-us \
-    -device usb-tablet,bus=input.0 \
-    -audiodev pa,id=audio0 \
+     -device usb-mouse \
     -device intel-hda \
-    -device hda-micro,audiodev=audio0 \
     -device virtio-net,netdev=nic \
-    -netdev user,hostname=macos-big-sur,hostfwd=tcp::22220-:22,smb=/home/n/,id=nic \
+    -netdev user,hostname=macos-big-sur,hostfwd=tcp::22220-:22,id=nic \
     -global driver=cfi.pflash01,property=secure,value=on \
     -drive if=pflash,format=raw,unit=0,file=macos-big-sur/OVMF_CODE.fd,readonly=on \
     -drive if=pflash,format=raw,unit=1,file=macos-big-sur/OVMF_VARS-1920x1080.fd \
@@ -48,6 +47,9 @@
     -device virtio-blk-pci,drive=SystemDisk \
     -drive id=SystemDisk,if=none,format=qcow2,file=macos-big-sur/disk.qcow2 \
     -fsdev local,id=fsdev0,path=/home/n/,security_model=mapped-xattr \
-    -device virtio-9p-pci,fsdev=fsdev0,mount_tag=Public-n \
-    -monitor unix:macos-big-sur/macos-big-sur-monitor.socket,server,nowait \
-    -serial unix:macos-big-sur/macos-big-sur-serial.socket,server,nowait 2>/dev/null
+    -audio sdl \
+    -device virtio-9p-pci,fsdev=fsdev0,mount_tag=Public-n 
+#    -serial unix:macos-big-sur/macos-big-sur-serial.socket,server,nowait
+
+
+#     -monitor unix:macos-big-sur/macos-big-sur-monitor.socket,server,nowait \
