@@ -3,7 +3,7 @@
   <img align="right" width="100" height="100" src="https://avatars.githubusercontent.com/u/47910472?v=4"> </h1> -->
 
  <h4 align="center"><img height="150" src="https://avatars.githubusercontent.com/u/47910472?v=4"><img src="header.png" height=150><img height="150" src="https://avatars.githubusercontent.com/u/47910472?v=4"></h4>
-  
+[![trophy](https://github-profile-trophy.vercel.app/?username=novafurry)](https://github.com/ryo-ma/github-profile-trophy)
 <p align="center">${they\ them\ *\ furry/therian\ *\ dumbass\ *\ i\ used\ LaTeX\ for\ this}$<br>🔭 I'm currently working on fucking cock assessments<br>
 🌱 Currently learning Jquery and C++ (arduino)<br>
 📫 Email me! nova@novafurry.win<br>
