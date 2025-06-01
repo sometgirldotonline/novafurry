@@ -6,5 +6,5 @@
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=novafurry)](https://github.com/ryo-ma/github-profile-trophy) -->
 <!-- <p align="center">${they\ them\ *\ furry/therian\ *\ dumbass\ *\ i\ used\ LaTeX\ for\ this}$<br>🔭 I'm currently working on fucking cock assessments<br> -->
 <!-- 🌱 Currently learning Jquery and C++ (arduino)<br> -->
-<!-- 📫 Email me! nova@novafurry.win<br> -->
+<!-- 📫 Email me! nova@novafurry.win<br> 
 <p align=center><img align="center" src="/github-metrics.svg" width=450></p>
